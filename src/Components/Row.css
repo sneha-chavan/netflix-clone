@@ -1,0 +1,27 @@
+.row {
+  color: white;
+}
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+.movie__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  transition: transform 430ms;
+  padding: 10px;
+}
+.movie__poster:hover {
+  transform: scale(1.08);
+}
+.tranding_movie {
+  max-height: 250px;
+}
+.tranding_movie:hover {
+  transform: scale(1.095);
+}
